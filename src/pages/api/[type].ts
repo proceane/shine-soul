@@ -1,5 +1,5 @@
 import { Star } from '@/theme/Star'
-import { Theme } from '@/theme/theme'
+import { Theme } from '@/theme/Theme'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default function themeHandler(
