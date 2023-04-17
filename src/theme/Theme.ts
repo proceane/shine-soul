@@ -1,3 +1,5 @@
+import { Color } from "./Color";
+
 export interface Theme {
-  getTag(): String
+  getTag(color: Color): String
 }

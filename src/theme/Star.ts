@@ -1,8 +1,9 @@
+import { Color } from "./Color";
 import { Theme } from "./Theme";
 
 export class Star implements Theme {
 
-  getTag(): String {
+  getTag(color: Color): String {
     return "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"853\" height=\"155\" viewBox=\"0 0 853 155\" xml:space=\"preserve\">"
     +"<g transform=\"matrix(0.12 0.12 -0.12 0.12 89 76)\">"
     + "<polygon style=\"fill: #64b5f6; opacity: 1;\" points=\"0,-35.47 11.56,-12.17 37.29,-8.4 18.68,9.8 23.06,35.47 0,23.42 -23.06,35.47 -18.74,9.8 -37.29,-8.4 -11.56,-12.17\"></polygon></g>"
