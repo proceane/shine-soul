@@ -1,3 +1,5 @@
+[![Shine Soul](https://shine-soul.vercel.app/api/star)](https://github.com/proceane/shine-soul)
+
 ## Getting Started
 
 First, run the development server:
