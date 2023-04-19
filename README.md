@@ -20,5 +20,8 @@ pnpm dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### License
+## Theme
+[Theme](https://github.com/proceane/shine-soul/blob/master/theme.md)
+
+## License
 The project is licensed under the MIT License.
