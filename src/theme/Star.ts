@@ -54,7 +54,7 @@ export class Star implements Theme {
     + "<g transform=\"matrix(0.04 0 0 0.04 90 35)\">"
     + "<circle style=\"fill: "+color.hexCodes[2]+"; opacity: 1;\" cx=\"0\" cy=\"0\" r=\"35\"></circle></g>"
     + "<g transform=\"matrix(0.03 0 0 0.03 50 70)\">"
-    + "<circle style=\"fill: "+color.hexCodes[4]+"; opacity: 1;\" cx=\"0\" cy=\"0\" r=\"35\"></circle></g>"
+    + "<circle style=\"fill: "+color.hexCodes[3]+"; opacity: 1;\" cx=\"0\" cy=\"0\" r=\"35\"></circle></g>"
     + "<g transform=\"matrix(0.03 0 0 0.03 147 55)\">"
     + "<circle style=\"fill: "+color.hexCodes[2]+"; opacity: 1;\" cx=\"0\" cy=\"0\" r=\"35\"></circle></g>"
     + "<g transform=\"matrix(0.05 0 0 0.05 30 75)\">"
