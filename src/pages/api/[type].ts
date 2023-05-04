@@ -16,6 +16,7 @@ export default function themeHandler(
 
   const color = query.color as string || 'BLUE'
   const colorValue = Color.getColorByName(color)
+  const isAnimate: boolean = query.isAnimate as boolean | undefined || false
   
   const themes: {[key: string]: new () => Theme} = {
     'star': Star
@@ -29,5 +30,5 @@ export default function themeHandler(
   const theme = new ThemeConstructor()
 
   res.setHeader("content-type", "image/svg+xml")
-  res.end(theme.getTag(colorValue));
+  res.end(isAnimate ? theme.getAnimateTag(colorValue) : theme.getTag(colorValue));
 }
